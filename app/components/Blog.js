@@ -6,27 +6,17 @@ import axios from "axios";
 
 export const Blog = () => {
   const [blog, setBlog] = useState(null);
-  const Blog = [
-    {
-      title: "The Future of Web Development",
-      excerpt:
-        "Exploring upcoming trends and technologies in web development...",
-      date: "Mar 15, 2024",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
-    },
-    {
-      title: "Building Scalable Applications",
-      excerpt: "Best practices for creating maintainable and scalable apps...",
-      date: "Mar 10, 2024",
-      image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa",
-    },
-    {
-      title: "Modern CSS Techniques",
-      excerpt: "Advanced CSS features and how to use them effectively...",
-      date: "Mar 5, 2024",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
-    },
-  ];
+  const fetchRef = useRef(false);
+  useEffect(() => {
+    const fetch = async () => {
+      fetchRef.current = true;
+      const res = await axios.get(`${process.env.NEXT_PUBLIC_URL}blog`);
+      setBlog(res.data.blog);
+    };
+    if (fetchRef.current == false) {
+      fetch();
+    }
+  }, []);
 
   return (
     <section className="w-full bg-black py-20 px-4">
@@ -35,7 +25,7 @@ export const Blog = () => {
           Latest Insights
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {Blog.map((post, index) => (
+          {blog?.map((post, index) => (
             <article key={index} className="group cursor-pointer">
               <div className="overflow-hidden rounded-xl mb-4">
                 <img
