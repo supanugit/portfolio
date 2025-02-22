@@ -20,9 +20,17 @@ export default function Hero() {
             />
           </h1>
           <div className="flex justify-center items-center gap-8 text-2xl mb-6">
-            <FiFacebook className=" cursor-pointer text-gray-300 duration-300 hover:text-white" />
-            <FaWhatsapp className=" cursor-pointer text-gray-300 duration-300 hover:text-white" />
-            <FaInstagram className=" cursor-pointer text-gray-300 duration-300 hover:text-white" />
+            <a
+              href="https://www.facebook.com/share/15w9RVCUh6/"
+              target="_blank">
+              <FiFacebook className=" cursor-pointer text-gray-300 duration-300 hover:text-white" />
+            </a>
+            <a href="https://wa.me/94759920388" target="_blank">
+              <FaWhatsapp className=" cursor-pointer text-gray-300 duration-300 hover:text-white" />
+            </a>
+            <a href="#" target="_blank">
+              <FaInstagram className=" cursor-pointer text-gray-300 duration-300 hover:text-white" />
+            </a>
           </div>
           <button className="bg-gradient-to-r from-blue-500 from-40% bg-purple-600 rounded-3xl py-3 w-1/2 font-semibold hover:opacity-90 ">
             View My Work

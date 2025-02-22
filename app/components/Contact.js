@@ -89,7 +89,7 @@ export const Contact = () => {
               supanusans@example.com
             </a>
             <a
-              href="#"
+              href="tel:+94759920388"
               className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors">
               <MessageSquare size={20} />
               Schedule a call
