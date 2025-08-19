@@ -19,7 +19,7 @@ export const Blog = () => {
   }, []);
 
   return (
-    <section className="w-full bg-black py-20 px-4">
+    <section id="blog" className="w-full bg-black py-20 px-4">
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold text-white mb-12 text-center">
           Latest Insights

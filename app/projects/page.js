@@ -4,7 +4,7 @@ import { FiExternalLink } from "react-icons/fi";
 import { FiGithub } from "react-icons/fi";
 import { useState, useRef, useEffect } from "react";
 
-export default function Project() {
+export default function project() {
   const [projects, setProjects] = useState(null);
   const fetchRef = useRef(false);
   useEffect(() => {
