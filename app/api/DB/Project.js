@@ -24,4 +24,12 @@ export const projects = [
     github: "https://github.com/Supanusan/Chatting-application",
     live: "#",
   },
+  {
+  title: "University Timetable App (Flutter)",
+  description: "A Flutter app to organize university classes, labs, and exams with reminders, offline storage, and a clean Material 3 UI.",
+  image: "https://images.unsplash.com/photo-1516280440614-37939bbacd81",
+  github: "https://github.com/supanugit/uni_semi_flutter",
+  live: "#"
+}
+
 ];
