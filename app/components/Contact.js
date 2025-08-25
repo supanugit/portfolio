@@ -32,7 +32,7 @@ export const Contact = () => {
     fetch();
   };
   return (
-    <section className="w-full bg-black py-20 px-4">
+    <section id="contact" className="w-full bg-black py-20 px-4">
       <ToastContainer />
       <div className="container mx-auto max-w-4xl">
         <h2 className="text-4xl font-bold text-white mb-12 text-center">

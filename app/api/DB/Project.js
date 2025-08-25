@@ -5,7 +5,7 @@ export const projects = [
       "A full-stack Todo application built with Next.js, featuring CRUD operations, user authentication, and persistent data storage.",
     image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
     github: "https://github.com/Supanusan/FullStack-todowebapp",
-    live: "#",
+    live: "https://full-stck-todo-app.vercel.app/",
   },
   {
     title: "Personal Todo App (React Native)",

@@ -1,13 +1,8 @@
 import React from "react";
-import Home from "./../components/Home";
+import MainPage from "../components/Main";
 
-export default async function MainPage() {
+export default async function () {
   // Fetch your data here
-  await new Promise((resolve) => setTimeout(resolve, 2000));
 
-  return (
-    <div>
-      <Home />
-    </div>
-  );
+  return <MainPage />;
 }

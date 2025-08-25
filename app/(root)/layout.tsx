@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono, Outfit } from "next/font/google";
 import "../globals.css";
+import Navbar from "../components/Nav";
 
 const outfit = Outfit({
   variable: "--font-geist-sans",
@@ -43,6 +44,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${outfit.variable} ${geistMono.variable} antialiased`}>
+        <Navbar />
         {children}
       </body>
     </html>

@@ -7,14 +7,13 @@ import Link from "next/link";
 
 export default function Hero() {
   const socialLinks = [
-    {
-      icon: <FiFacebook />,
-      href: "https://www.facebook.com/share/15w9RVCUh6/",
-    },
     { icon: <FaWhatsapp />, href: "https://wa.me/94759920388" },
-    { icon: <FaInstagram />, href: "#" },
-    { icon: <FaGithub />, href: "#" },
-    { icon: <FaLinkedin />, href: "#" },
+
+    { icon: <FaGithub />, href: "https://github.com/Supanusan" },
+    {
+      icon: <FaLinkedin />,
+      href: "https://lk.linkedin.com/in/supanu-supanusan-a96942297",
+    },
   ];
 
   return (
