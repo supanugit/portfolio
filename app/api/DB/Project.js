@@ -25,11 +25,21 @@ export const projects = [
     live: "#",
   },
   {
-  title: "University Timetable App (Flutter)",
-  description: "A Flutter app to organize university classes, labs, and exams with reminders, offline storage, and a clean Material 3 UI.",
-  image: "https://plus.unsplash.com/premium_photo-1663100722417-6e36673fe0ed?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29kaW5nfGVufDB8fDB8fHww",
-  github: "https://github.com/supanugit/uni_semi_flutter",
-  live: "#"
-}
-
+    title: "University Timetable App (Flutter)",
+    description:
+      "A Flutter app to organize university classes, labs, and exams with reminders, offline storage, and a clean Material 3 UI.",
+    image:
+      "https://plus.unsplash.com/premium_photo-1663100722417-6e36673fe0ed?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29kaW5nfGVufDB8fDB8fHww",
+    github: "https://github.com/supanugit/uni_semi_flutter",
+    live: "#",
+  },
+  {
+    title: "URL Shortener",
+    description:
+      "A web application to shorten long URLs into manageable links with a clean, modern UI built with React and Node.js.",
+    image:
+      "https://images.unsplash.com/photo-1550439062-609e1531270e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHByb2dyYW1taW5nfGVufDB8fDB8fHww",
+    github: "https://github.com/Supanusan/URL_shortener",
+    live: "https://url-shortner-frontend-six-iota.vercel.app/",
+  },
 ];
